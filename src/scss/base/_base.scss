@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+
+    @include respond(md) {
+        font-size: 55%;
+    }
+
+    @include respond(sm) {
+        font-size: 45%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
