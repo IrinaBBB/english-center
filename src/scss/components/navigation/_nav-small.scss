@@ -1,0 +1,40 @@
+@include respond(md) {
+    .navigation {
+
+        &.toggle {
+            z-index: 10;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba($color-tertiary-light, .95);
+        }
+
+        &__logo {
+            display: block;
+            flex: 1;
+            margin-bottom: 5rem;
+            order: 1;
+        }
+
+        &__list {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 3rem;
+            display: none;
+            order: 3;
+
+            &.toggle {
+                display: block;
+            }
+        }
+
+        &__link {
+            font-size: 3rem;
+        }
+    }
+}

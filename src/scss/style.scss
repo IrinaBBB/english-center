@@ -7,9 +7,13 @@
 @import "base/fonts";
 @import "base/typography";
 
+@import "components/navigation/nav-large";
+@import "components/navigation/nav-medium";
+@import "components/navigation/nav-small";
+@import "components/navigation/toggler";
 @import "components/language";
 @import "components/logo";
-@import "components/navigation";
+//@import "components/navigation";
 
 @import "layout/header";
 @import "layout/hero";

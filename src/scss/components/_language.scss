@@ -10,8 +10,11 @@
 
     &__icon {
         width: 2rem;
+        margin-right: 1rem;
+
         @include respond(md) {
             width: 5rem;
+            margin-bottom: 1rem;
         }
     }
 }

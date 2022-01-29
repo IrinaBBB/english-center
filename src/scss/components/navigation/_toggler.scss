@@ -1,0 +1,41 @@
+.toggler {
+    display: none;
+
+    &.toggle {
+        & .toggler__line--1 {
+            transform: translate(100%, 1rem) rotate(-35deg);
+            transform-origin: right;
+        }
+
+        & .toggler__line--3 {
+            transform: translateY(-1rem) rotate(35deg);
+            transform-origin: right;
+        }
+    }
+
+    @include respond(md) {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+        order: 2;
+
+        &__line {
+            width: 100%;
+            height: .2rem;
+            background-color: $color-white;
+
+            &--1 {
+                width: 50%;
+            }
+
+            &--3 {
+                width: 50%;
+                margin-left: auto;
+            }
+        }
+    }
+}

@@ -2,10 +2,6 @@
     height: 87vh;
     overflow: hidden;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
     @include respond(sm) {
         height: 70vh;
     }

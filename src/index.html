@@ -11,11 +11,14 @@
 <body>
 <nav class="navigation">
     <ul class="navigation__list">
+        <li class="navigation__logo">
+            <a href="#" class="navigation__link">&nbsp;</a>
+        </li>
         <li class="navigation__item">
             <a href="#" class="navigation__link">Home</a>
         </li>
         <li class="navigation__item">
-            <a href="#" class="navigation__link">Contact</a>
+            <a href="/contact" class="navigation__link">Contact</a>
         </li>
         <li class="navigation__item">
             <a href="#" class="navigation__link">
@@ -28,20 +31,19 @@
         </li>
         <li class="navigation__item">
             <a href="#" class="navigation__link">
-                    <span class="language language--russian">
-                        <img src="img/flags/russia.svg" alt="icon: Russian flag" class="language__icon">
-                        <span class="language__name">Русский</span>
-                    </span>
+                <span class="language language--russian">
+                    <img src="img/flags/russia.svg" alt="icon: Russian flag" class="language__icon">
+                    <span class="language__name">Русский</span>
+                </span>
             </a>
+        </li>
+        <li class="toggler">
+            <div class="toggler__line toggler__line--1"></div>
+            <div class="toggler__line toggler__line--2"></div>
+            <div class="toggler__line toggler__line--3"></div>
         </li>
     </ul>
 </nav>
-<div class="menu-toggler">
-    <div class="menu-toggler__line menu-toggler__line--1"></div>
-    <div class="menu-toggler__line menu-toggler__line--2"></div>
-    <div class="menu-toggler__line menu-toggler__line--3"></div>
-</div>
-<!-- /.menu-toggler -->
 <section class="hero">
     <div class="bg-video">
         <video class="bg-video__content" autoplay muted loop>
@@ -58,7 +60,8 @@
             </div>
             <!-- /.logo -->
             <div class="title__text">
-                <span class="title__accent">YES</span> English Center is one of the leading educational centers in Uzbekistan
+                <span class="title__accent">YES</span> English Center is one of the leading educational centers in
+                Uzbekistan
             </div>
             <!-- /.title__text -->
             <a href="#" class="title__button">Register online</a>
